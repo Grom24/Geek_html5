@@ -63,6 +63,18 @@ h3 {
     color: #445161;
     margin-bottom: 30px;
 }
+.soc-icon {
+    fill: #fff;
+}
+.soc-icon:hover {
+    fill: #767676;
+}
+
+.screenshots,
+.dignity,
+.buy {
+    background: #f2f2f2;
+}
 .screenshots h3 {
     margin-bottom: 45px;
 }
@@ -98,8 +110,8 @@ article {
     min-width: 575px;
     .article-img {
         margin-right: 5px;
-        height: 35px;
-        width: 35px;
+        flex-shrink: 0;
+        margin-top: 5px;
     }
     .article-screen {
         margin-right: 10px;
